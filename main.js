@@ -12,7 +12,7 @@ function selectProcess(e) {
     if (clicked) {
         this.classList.toggle('selected');
     }
-    this.classList.toggle('selected');
+    this.classList.toggle('selected');  
     result = e.srcElement.textContent;
 }
 

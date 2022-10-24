@@ -61,6 +61,11 @@ body {
     color: white;
 }
 
+.selected:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
 .rate:active {
     background-color: hsl(25, 97%, 53%);
 }
@@ -78,6 +83,7 @@ button:hover {
     background-color: white;
     color: hsl(25, 97%, 53%);
 }
+
 
 /*Thanks card styles*/
 
