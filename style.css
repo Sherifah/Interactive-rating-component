@@ -110,5 +110,14 @@ footer {
         padding: 20px;
         border-radius: 15px;
     }
+
+    .rating-result {
+        background-color: hwb(217 58% 33% / 0.1);
+        color: hsl(25, 97%, 53%);
+        margin: 30px 45px;
+        padding: 5px;
+        border-radius: 30px;
+        text-align: center;
+    }
 }
 
