@@ -9,6 +9,7 @@ let result = null;
 
 var clicked = false;
 function selectProcess(e) {
+    rateBtn.forEach((button) => button.classList.remove('selected'));
     if (clicked) {
         this.classList.toggle('selected');
     }
